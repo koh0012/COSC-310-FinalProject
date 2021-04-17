@@ -91,6 +91,16 @@ The bot is capable of talking about anything in its knowledge base. To expand th
 
 start talking to the bot about it. Users can now ask / answer questions in a language other than English.
 
+## List of APIs Implemented and Explanation
+
+### Wikipedia API
+
+The bot will search for a Wikipedia article when the appropriate answer can not be found within its knowledge base. First two lines of the article will be imported and processed by the bot for improved performance. If the article can be found neither in Wikipedia or its knowledge base, the bot will initiate random response.
+
+### Google Translate API
+
+The bot will use Google Translate API if the answers / questions from a user are in a language other than English. Users can also ask the bot to translate the article found in the Wikipedia. Languages must be the ones supported by Google Translate. Otherwise, an error message will be shown to a user. 
+
 
 ## Limitations
 

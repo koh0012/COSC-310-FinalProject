@@ -1,5 +1,9 @@
 # COSC 310 Individual Project -  Kenneth Oh
 
+## Presentation Link
+### IMPORTANT - TO WATCH THE SUBTITLE, ENABLE "CC" BUTTON AT THE BOTTOM OF THE VIDEO.
+https://youtu.be/lVoS4V8_xHo
+
 ## APIs Added
 Google Translate and Wikipedia API.
 

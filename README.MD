@@ -1,6 +1,6 @@
 # COSC 310 Individual Project - Author: Kenneth Oh
 
-## ROLE AND TOPICS
+## Roles and Topics
 
 <p>
 This project is a chatbot that plays the role of a friend.
@@ -76,20 +76,22 @@ If the input is "stop" the program will stop.
 </ul>
 
 
-## CLASS STRUCTURE AND ORGANIZATION
+## Class Structure and Organization
 A Chatbot has Knowledge, a language processor, and a GUI. Knowledge has a HashMap. A GUI has a Spellchecker. A language processor has a Pipeline. A text will be sent to Google Translate API or Wikipedia API as needed.
 
 ![Individual Chatbot DFD@2x](https://user-images.githubusercontent.com/77301335/115102976-fa737e00-9f13-11eb-9acb-df2d78bfb9c3.png)
 
 
-## CONVERSATION TOPICS
+## Conversion Topics
 
 The bot is capable of talking about anything in its knowledge base. To expand the knowledge base the user simply has to 
 
 start talking to the bot about it. Users can now ask / answer questions in a language other than English.
 
 
+## Limitations
 
+The API (Google Translate and Wikipedia) could not be implemented in Chatbot.java. The documentations above explains how the chatbot should work when it is fully implemented and functional.
 
 
 

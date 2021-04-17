@@ -77,36 +77,18 @@ If the input is "stop" the program will stop.
 
 
 ## CLASS STRUCTURE AND ORGANIZATION
-A Chatbot has Knowledge, a language processor, and a GUI. Knowledge has a HashMap. A GUI has a Spellchecker. A language processor has a Pipeline
+A Chatbot has Knowledge, a language processor, and a GUI. Knowledge has a HashMap. A GUI has a Spellchecker. A language processor has a Pipeline. A text will be sent to Google Translate API or Wikipedia API as needed.
 
-<img src = "img/Level_0_DFD2x-6.png">
-
-<img src = "img/Level_1_DFD2x.png">
+![Individual Chatbot DFD@2x](https://user-images.githubusercontent.com/77301335/115102976-fa737e00-9f13-11eb-9acb-df2d78bfb9c3.png)
 
 
 ## CONVERSATION TOPICS
 
 The bot is capable of talking about anything in its knowledge base. To expand the knowledge base the user simply has to 
 
-start talking to the bot about it.
+start talking to the bot about it. Users can now ask / answer questions in a language other than English.
 
 
-### Full Conversation
-
-<img src = "img/first13turns.JPG">
-<img src = "img/last13turns.JPG">
-
-
-## SHARABLE APIs
-
-<ol>
-<li>The way our bot "learns" new responses by saving the user input</li>
-<li>The way our bot finds the appropriate response by first checking the hashmap and then finding a response within its knowledge base by matching words</li>
-<li>The knowledge object and associated file</li>
-<li>The spell checker</li>
-<li>The word matching technique using Stanford NLP</li>
-
-</ol>
 
 
 

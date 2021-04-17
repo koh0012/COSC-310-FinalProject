@@ -1,7 +1,4 @@
-# COSC 310 Individual Project
-## Author: Kenneth Oh
-
-### Repo has been cloned from COSC 310 Team 2 in which I was a member.
+# COSC 310 Individual Project - Author: Kenneth Oh
 
 ## ROLE AND TOPICS
 
@@ -9,24 +6,10 @@
 This project is a chatbot that plays the role of a friend.
 </p>
 <p>
-The conversation topics are
-<ul>
-<li>favorite food, hobbies, books, sports.</li>
-<li>sports</li>
-</ul>
-</p>
+The conversation topics are same as the one from Team 2 Chatbot.
+  
+<p>Conversation topics: favorite food, hobbies, books, sports.</p>
 
-## HOW IT WORKS
-
-
-<p>There are two java docs in our repo. They are located in the documentation folder.</p>
-
-### Chatbot JAVA DOC
-<p>Java Doc contains everything about the Chatbot members.</p>
-
-
-<ul>
-<li>
 
 ### General
 
@@ -56,8 +39,9 @@ If the input is "stop" the program will stop.
 
 ### Input Is An Answer
 <ul>
-<li>bot adds answer to arraylist of answers bot checks previous response if the previous response was a question.</li>
-<li>bot adds answer to hashmap. bot attempts to ask relevant questions.</li>
+<li>Bot adds answer to arraylist of answers bot checks previous response if the previous response was a question.</li>
+<li>Bot adds answer to hashmap. bot attempts to ask relevant questions.</li>
+<li>NEW - Bot translates answer in different language to English if a user answered in a language other than English.</li>
 </ul>
 </li>
 
@@ -79,6 +63,14 @@ If the input is "stop" the program will stop.
 <li>The bot will respond with a string that has the most matching words with the input string.</li>
 
 <li>The bot also keeps track of the last 5 responses and does not reapeat them.</li>
+
+<li>NEW - If a language other than English is detected, the bot will answer the question in English. (Incomplete)</li>
+
+<li>NEW - The bot will translate a given text when asked by a user. For example, a user may ask: How do you write "Do you want to go out?" in Spanish? (Incomplete)</li>
+
+<li>NEW - The bot will lookup Wikipedia website if the answer for the question can not be found in the knowledge base. For example, "What is photosynthesis?"</li>
+
+<li>NEW - Combination of Google Translate API and Wikipedia API. Users can ask the bot to translate a text found using Wikipedia API.</li>
 </ul>
 </li>
 </ul>

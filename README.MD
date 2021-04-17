@@ -1,5 +1,8 @@
 # COSC 310 Individual Project -  Kenneth Oh
 
+## APIs Added
+Google Translate and Wikipedia API.
+
 ## Roles and Topics
 
 <p>

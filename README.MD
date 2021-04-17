@@ -41,7 +41,7 @@ If the input is "stop" the program will stop.
 <ul>
 <li>Bot adds answer to arraylist of answers bot checks previous response if the previous response was a question.</li>
 <li>Bot adds answer to hashmap. bot attempts to ask relevant questions.</li>
-<li>NEW - Bot translates answer in different language to English if a user answered in a language other than English.</li>
+<li>NEW - Bot translates answer in different language to English if a user answered in a language other than English. (Incomplete)</li>
 </ul>
 </li>
 
@@ -68,9 +68,9 @@ If the input is "stop" the program will stop.
 
 <li>NEW - The bot will translate a given text when asked by a user. For example, a user may ask: How do you write "Do you want to go out?" in Spanish? (Incomplete)</li>
 
-<li>NEW - The bot will lookup Wikipedia website if the answer for the question can not be found in the knowledge base. For example, "What is photosynthesis?"</li>
+<li>NEW - The bot will lookup Wikipedia website if the answer for the question can not be found in the knowledge base. For example, "What is photosynthesis?" (Incomplete)</li>
 
-<li>NEW - Combination of Google Translate API and Wikipedia API. Users can ask the bot to translate a text found using Wikipedia API.</li>
+<li>NEW - Combination of Google Translate API and Wikipedia API. Users can ask the bot to translate a text found using Wikipedia API. (Incomplete)</li>
 </ul>
 </li>
 </ul>

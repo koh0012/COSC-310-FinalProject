@@ -1,16 +1,5 @@
-
-## REPO STRUCTURE
-
-<img src="img/Graph2x-5.png">
-
-# TEAM-2 A3 CHATBOT
-
-#### Pair Programming and Documentation: Tyler Rogers, Ferdinand Haaben
-
-#### Lead: June Kang
-
-#### Graphics: Kenneth OH
-
+# COSC 310 Individual Project
+## Author: Kenneth Oh
 
 ## ROLE AND TOPICS
 
@@ -24,16 +13,6 @@ The conversation topics are
 <li>sports</li>
 </ul>
 </p>
-
-
-
-
-## RUN INSTRUCTIONS
-
-<p>Run the jar file</p>
-<p>Make sure that the Knowledge.dat file is in the same folder as the chatbot.jar file</p> 
-<p>The jar file can be found at this <a href="https://drive.google.com/drive/folders/1cm9XKGfR2VE56yod4Qd6UOahiBAvwxvg?usp=sharing"> google drive link.</a></p>
-
 
 ## HOW IT WORKS
 
@@ -222,35 +201,5 @@ Word matching in action below "running" and "run" are matched.
 </ol>
 
 
-## PROBLEMS
 
-### Performance
-
-<p>high ram usage ~3GBs.</p>
-<p>entering paragraph crashes the program.</p>
-<p>slow performance. high cpu usage.</p>
-<p>The use of the stanfordnlp libraries significantly reduced the performance of the bot.</p>
-<p>there is a triple nested loop in the compare method. compare has one for loop, and in that loop, it calls a method that has a nested loop. there is an O(N^3) performance in this method.</p>
-
-### Spell Checker
-
-In the image below, the spell checker corrects unknown words to known words and thereby responds incorrectly.
-
-It corrects "winnipeg jets" to "winipeg lets".
-
-In the same dialog the bot does not know how to respond to "The ottowa senators" and picks a random response out of its knowledge base.
-
-Both of these issues could be fixed if the bot was trained with a very high volume of correctly spelled sentences. The high volume is
-
-important, because it increases the probability that the bot will have something relevant to say. 
-
-We did not have time to chat with our bot for hours at a time. Perhaps this process could be automated in the future.
-
-<img src = "img/spellcheckerfails.JPG">
-
-## FUTURE
-
-<p>Improve performance by refactoring the compare method, or parallelizing it. there are no loop carried dependencies, so this is embarasingly parallel.<p/>
-
-Automate the building of the knowledge base so that it can be as large as possible
 

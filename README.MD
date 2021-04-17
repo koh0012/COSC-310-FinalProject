@@ -22,9 +22,6 @@ The conversation topics are
 ### Chatbot JAVA DOC
 <p>Java Doc contains everything about the Chatbot members.</p>
 
-### JUNIT JAVA DOC
-<p>Java Doc summarizes test cases</p>
-
 
 <ul>
 <li>
@@ -92,16 +89,6 @@ A Chatbot has Knowledge, a language processor, and a GUI. Knowledge has a HashMa
 
 <img src = "img/Level_1_DFD2x.png">
 
-## GUI
-
-The GUI is a simple window that has a text box for user input and shows the bot reply along with a history.
-
-<img src = "img/spelling.JPG">
-
-
-
-
-
 
 ## CONVERSATION TOPICS
 
@@ -109,79 +96,6 @@ The bot is capable of talking about anything in its knowledge base. To expand th
 
 start talking to the bot about it.
 
-## CONVERSATION INPUTS OFF TOPIC
-
-<p>This is the feature that was added to handle input outside of the two topics</p>
-
-```JAVA
-if (topMatchingWords == 0) {
-	response = getRandomResponse(getResponse(!isQuestion));
-```
-
-
-
-A future release of the bot would focus on improving performanc.
-
-## SPELL CHECKING
-
-<p>
-Compares the word with known words, and tests
- their similarities. If they are similar, replace the word with know word,
- 
-otherwise, then learn the new word. The bot uses Levenshtein Distance Algorithm to test similarity.
-</p>
-
-### Levenshtein Distance Algorithm
-
-<p>
-<strong>This code is not ours, we do not take credit for it, we are just
-using it.</strong> It was taken from,
-
-jdk.internal.org.jline.utils.Levenshtein
-</p>
-
-
-### Misspelled vs. New "Unknown" word
-<p>
-The logic is this, the bot only know words about food, hobbies, and sports.
-So if the user feeds the bot with a word that it has not encountered before,
-it needs to decide if the new word is just spelled wrong, or is a new, valid
-word.
-</p>
-
-### Sanity Check
-
-```Java
-if (matchStrength <= 2 && bestMatchingWordSoFar.length() > 0
-    && Math.abs(word.length() - bestMatchingWordSoFar.length()) < 3)
-  return bestMatchingWordSoFar;
-return word;
-```
-## SAMPLE OUTPUT
-
-### Spell Checker in Action
-
-Here I enter nicholar cagb.
-
-<img src = "img/spelling.JPG">
-
-Here the bot corrects the spelling to nicholas cage you can see the corrected spelling in the column on the right side.
-
-<img src = "img/spelling2.JPG">
-
-### Language Processing
-
-The stanford NLP libraries were used when finding the number of matching words more accuratley than in the first version of the bot.
-
-The standford libraries are used to simplify sentances into lists of root words that are then compared. 
-
-This is done because the bot can match two words such as "eating" and "ate" by converting them both into "eat".
-
-The stanford libraries are also used to only compare nouns, verbs and adjectives. Because these are most relevant to conversation.
-
-Word matching in action below "running" and "run" are matched.
-
-<img src = "img/wordMatching.JPG">
 
 ### Full Conversation
 

@@ -104,7 +104,7 @@ The bot will use Google Translate API if the answers / questions from a user are
 
 ## Limitations
 
-The API (Google Translate and Wikipedia) could not be implemented in Chatbot.java. The documentations above explains how the chatbot should work when it is fully implemented and functional.
+The API (Google Translate and Wikipedia) could not be implemented properly in Chatbot.java. The documentations above explains how the chatbot should work when it is fully implemented and functional.
 
 
 

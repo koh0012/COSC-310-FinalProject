@@ -1,4 +1,4 @@
-# COSC 310 Individual Project - Author: Kenneth Oh
+# COSC 310 Individual Project -  Kenneth Oh
 
 ## Roles and Topics
 

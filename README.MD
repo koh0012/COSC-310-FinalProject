@@ -1,6 +1,8 @@
 # COSC 310 Individual Project
 ## Author: Kenneth Oh
 
+### Repo has been cloned from COSC 310 Team 2 in which I was a member.
+
 ## ROLE AND TOPICS
 
 <p>
